@@ -71,7 +71,15 @@ ul {
 }
 /*  */
 .top_text h3{
-  margin: 0.5em 0 ;
+  margin:0.5em 1em ;
+}
+.top_text h1{
+  font-size: 2.5em;
+  margin:0 0 0.5em 0 ;
+  padding: 0;
+}
+.mini {
+  font-size: 0.5em;
 }
 
 .what_staking {
