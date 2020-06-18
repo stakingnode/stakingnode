@@ -26,6 +26,9 @@ ul {
 .blue {
   color: #4299E1;
 }
+.big {
+  font-size: 1.3em;
+}
 
 .marker {
   background:linear-gradient(transparent 75%, #ffadad 80%);
@@ -44,6 +47,7 @@ ul {
 .subtitle {
   margin-top:2.5em;
 }
+
 
 /*  */
 .align_row {
@@ -69,7 +73,11 @@ ul {
   flex-direction: column;
   align-items: center;
 }
+
 /*  */
+.top_text {
+  width: 100%;
+}
 .top_text h3{
   margin:0.5em 1em ;
 }
@@ -80,6 +88,10 @@ ul {
 }
 .mini {
   font-size: 0.5em;
+}
+.image-a img{
+  margin: 0;
+  padding: 0;
 }
 
 .what_staking {
@@ -101,10 +113,19 @@ ul {
 .card_pos p{
   padding: 1em;
 }
-
-.flow_card {
+.flow {
   width: 100%;
-  margin: ;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.flow_card {
+  margin: 0;
+  padding: 0;
 }
 .card{
   background-color: #f1f1f1;
@@ -121,7 +142,6 @@ ul {
 .card p {
   padding-top: 1.5em;
   margin: 1em;
-  font-size: 14px;
   font-weight: 400;
 }
 .flow_text {
@@ -475,3 +495,81 @@ ul {
    font-size: 10px;
    color: #d2d2d2;
  }
+
+
+/* responsive */
+@media screen and (max-width: 768px)  {
+  body {
+    margin: 0;
+    letter-spacing: 1.5px;
+    font-family: 'Helvetica Neue','Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-weight: 300px;
+    font-size: 0.9em;
+    color: #393c40;
+    background-color: #f1f1f1;
+    width: 100%;
+    text-decoration: none;
+    line-height: 2;
+  }
+  p {
+    font-size: 0.9em;
+  }
+
+  .top_text {
+    font-size: 0.95em;
+  }
+
+  .align_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    background-color: #f1f1f1;
+    align-self:center;
+    width: 84%;
+    padding: 1em;
+    border-radius: 30px;
+    border:solid 3px #eee;
+    box-shadow: inset 9px 9px 12px rgba(179, 179,179, 0.5) ,
+                inset -9px -9px 12px rgba(255,255,255, 0.8);
+  }
+  .card p {
+    width: 80%;
+    padding-top: 1.5em;
+    margin: 1em;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .flow_text {
+    margin: 0 10%;
+  }
+  .card_merit{
+    background-color: #f1f1f1;
+    align-self:center;
+    width: 84%;
+    padding: 1em;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #e9e9e9, #ffffff);
+    box-shadow: inset 9px 9px 12px rgba(179, 179,179, 0.5) ,
+                inset -9px -9px 12px rgba(253,253,253, 0.5);
+  }
+  .card_merit p {
+    margin: 1em;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .card_pic{
+    background-color: #f1f1f1;
+    align-self:center;
+    width: 90%;
+    margin: 1em;
+    border-radius: 30px;
+    border:px solid rgba(255,255,255,0.4);
+    box-shadow:  9px 9px 12px rgba(179, 179,179, 0.5) ,
+                 -9px -9px 12px rgba(253,253,253, 0.8);
+  }
+
+
+}
