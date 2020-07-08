@@ -631,6 +631,10 @@ ul {
     /* border:solid 2px ; */
     background-color: rgba(255, 255, 255, 0.4);
   }
+  .h_text h3 {
+    margin:0.2em 0 0 0 ;
+    font-size: 0.8em;
+  }
 
 
 }
