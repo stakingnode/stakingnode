@@ -304,6 +304,7 @@ ul {
   width: 280px;
   height: 60px;
   font-size: 1.2em;
+  font-weight: bold;
   letter-spacing: 1.5px;
   color: #4299E1;
   background-color: #f1f1f1;
@@ -333,6 +334,7 @@ ul {
   width: 200px;
   height: 50px;
   font-size: 1em;
+  font-weight: bold;
   letter-spacing: 1.5px;
   color: #4299E1;
   background-color: #f1f1f1;
