@@ -26,6 +26,12 @@ ul {
 .blue {
   color: #4299E1;
 }
+.white {
+  color: #fdfdfd;
+}
+.orange {
+  color: #D3AC0C;
+}
 .big {
   font-size: 1.3em;
 }
@@ -89,10 +95,25 @@ ul {
 .mini {
   font-size: 0.5em;
 }
+.h_text p {
+  margin-bottom: 0;
+}
+.name {
+  margin-top: 0;
+  padding-top: 0;
+}
+.h_text h1 {
+  margin:0em 0 0.2em 0 ;
+}
+.h_text h3 {
+  margin:0.2em 0 0 0 ;
+}
+
 .image-a img{
   margin: 0;
   padding: 0;
 }
+
 
 .what_staking {
   margin: 0 5%;
@@ -110,6 +131,34 @@ ul {
   margin: 1em;
   padding: 1em;
 }
+.acutual {
+  width: 90%;
+}
+.card_a{
+  background-color: #f1f1f1;
+  align-self:stretch;
+  width: 24%;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 30px;
+  /* border:solid 2px ; */
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.medal {
+  position:relative;
+}
+.medal_text {
+  position: absolute;
+}
+.medal_text p {
+  margin:0;
+  padding-bottom: 1em;
+}
+.medal_text h2 {
+  margin:0;
+}
+
 .card_pos p{
   padding: 1em;
 }
@@ -245,7 +294,7 @@ ul {
   height: 100%;
   align-items: center;
   justify-content: center;
-  margin: 1.5em;
+  margin: 1em;
 
 }
 .button a {
@@ -282,7 +331,7 @@ ul {
 
 .button_sq {
   width: 200px;
-  height: 60px;
+  height: 50px;
   font-size: 1em;
   letter-spacing: 1.5px;
   color: #4299E1;
@@ -315,7 +364,6 @@ ul {
  header {
    display: flex;
    flex-direction: row;
-   background: fdfdfd;
  }
 
  #nav-drawer {
@@ -569,6 +617,19 @@ ul {
     border:px solid rgba(255,255,255,0.4);
     box-shadow:  9px 9px 12px rgba(179, 179,179, 0.5) ,
                  -9px -9px 12px rgba(253,253,253, 0.8);
+  }
+  .acutual {
+    width: 96%;
+  }
+  .card_a{
+    background-color: #f1f1f1;
+    align-self: center;
+    width: 86%;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 30px;
+    /* border:solid 2px ; */
+    background-color: rgba(255, 255, 255, 0.4);
   }
 
 
