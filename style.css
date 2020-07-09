@@ -19,7 +19,7 @@ ul {
   list-style: none;
 }
 
-
+/* color */
 .red {
   color: #F56565;
 }
@@ -35,7 +35,6 @@ ul {
 .big {
   font-size: 1.3em;
 }
-
 .marker {
   background:linear-gradient(transparent 75%, #ffadad 80%);
   font-weight: bolder;
@@ -95,6 +94,9 @@ ul {
 .mini {
   font-size: 0.5em;
 }
+.neunode .top {
+  width: 100%;
+}
 .h_text p {
   margin-bottom: 0;
 }
@@ -116,6 +118,7 @@ ul {
 
 
 .what_staking {
+  width: 100%;
   margin: 0 5%;
   margin-top: 2.5em;
 }
@@ -297,6 +300,7 @@ ul {
 
 .company {
   margin: 8% 0;
+  width: 100%;
 }
 .company p{
   font-size: inherit;
@@ -568,6 +572,7 @@ ul {
 /* responsive */
 @media screen and (max-width: 768px)  {
   body {
+    padding: 0;
     margin: 0;
     letter-spacing: 1.5px;
     font-family: 'Helvetica Neue','Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
