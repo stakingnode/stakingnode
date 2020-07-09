@@ -330,7 +330,7 @@ ul {
   letter-spacing: 1.5px;
   color: #4299E1;
   background-color: #f1f1f1;
-  border: none;
+  border: solid 2px #eaeaea;
   border-radius: 30px;
   /* background: linear-gradient(145deg, #47a4f1, #3b8acb); */
   box-shadow:  9px 9px 12px rgba(179, 179,179, 0.8),
@@ -363,13 +363,13 @@ ul {
   transition: all 0.4s ease 0s;
   cursor: pointer;
   outline: none;
-  border: none;
+  border: solid 1px #eaeaea;
   border-radius: 30px;
-  box-shadow:  9px 9px 12px rgba(179, 179,179, 0.5),
+  box-shadow:  9px 9px 12px rgba(179, 179,179, 0.8),
                -9px -9px 12px #fdfdfd;
 }
 .button_sq:hover {
-  box-shadow:  15px 15px 20px rgba(179, 179,179, 0.8),
+  box-shadow:  15px 15px 20px rgba(179, 179,179, 1),
                -9px -9px 12px #fdfdfd;
   color: #4299E1;
   transform: translateY(-3px);
